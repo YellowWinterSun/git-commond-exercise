@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/dorm?useUnicode=true&characterEncoding=utf8&useAffectedRows=true
+      username: root
+      password: 123456
+      type: com.zaxxer.hikari.HikariDataSource
+      hikari:
+          minimum-idle: 5
+          maximum-pool-size: 15
+          auto-commit: true
+          idle-timeout: 30000
+          max-lifetime: 1800000
+          connection-timeout: 30000
+          pool-name: RiskDataHikariCP
+
+mybatis:
+    mapper-locations: classpath:mapping/*.xml
+    type-aliases-package: com.dy.demo0.dao.model
