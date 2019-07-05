@@ -1,0 +1,3 @@
+使用Maven构建的SpringBoot多模块项目的DEMO，用于日后需要使用的时候能回顾或者直接搬来用。
+
+目前该DEMO没有啥集成，就简单集成了MyBatis
