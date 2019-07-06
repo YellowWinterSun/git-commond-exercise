@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+
+    <!-- 引入mysql-connector-java-x.x.xx.jar位置 -->
+    <classPathEntry location="D:/repository/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar" />
+
+    <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <!--- plugin标签，可以为你生成JavaBean的时候附带额外的功能。如此处就是JavaBean会自动生成toString(), 实现序列化接口 -->
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"/>
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!-- 数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/your_table"
+                        userId="root"
+                        password="your_user_password">
+        </jdbcConnection>
+
+        <!--      
+                             默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer    
+             true，把JDBC DECIMAL 和 NUMERIC 类型解析为java.math.BigDecimal      
+        -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="true"/>
+        </javaTypeResolver>
+
+        <!--     
+            生成model模型，对应的包路径，以及文件存放路径(targetProject)，targetProject可以指定具体的路径    
+         也可以使用“MAVEN”来自动生成，这样生成的代码会在target/generatord-source目录下    
+        -->
+        <javaModelGenerator targetPackage="com.demo.model"
+                            targetProject=".\java">
+            <property name="enableSubPackages" value="true"/>
+            <!-- 从数据库返回的值被清理前后的空格  -->
+            <property name="trimStrings" value="false"/>
+        </javaModelGenerator>
+
+        <!--对应的mapper.xml文件  -->
+        <sqlMapGenerator targetPackage="mapper" targetProject=".\resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!-- 对应的Mapper接口类文件 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.demo.dao"
+                             targetProject=".\java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!-- 生成那些表，tableName对应数据库表，domainObjectName对应实体类名 -->
+
+        <!---->
+        <!--&lt;!&ndash; 代后 &ndash;&gt;-->
+        <!--<table tableName="afag_apply"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="afag_company_risk"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="afag_report"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true">-->
+            <!--<columnOverride column="visiable_imgs" javaType="java.lang.String" jdbcType="VARCHAR"/>-->
+        <!--</table>-->
+        <!--<table tableName="afag_report_body"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="afag_report_plus"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+
+        <!--&lt;!&ndash; 客户 &ndash;&gt;-->
+        <!--<table tableName="company"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="company_business_progress_record"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="company_info"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="company_info_item"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+
+        <!--&lt;!&ndash; 尽调 &ndash;&gt;-->
+        <!--<table tableName="ddri_apply"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+
+        <!--<table tableName="ddri_report"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true">-->
+            <!--<columnOverride column="visiable_keys" javaType="java.lang.String" jdbcType="VARCHAR"/>-->
+            <!--<columnOverride column="visiable_imgs" javaType="java.lang.String" jdbcType="VARCHAR"/>-->
+        <!--</table>-->
+        <!--<table tableName="ddri_report_body1"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="ddri_report_body2"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="ddri_report_body3"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="ddri_report_body4"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="ddri_report_body5"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="ddri_report_body6"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+
+        <!--<table tableName="ddri_report_plus"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="excel_asset_in_debt"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="excel_cash_flow"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="excel_cash_flow_previous"-->
+             <!--enableCountByExample="true"-->
+             <!--enableUpdateByExample="true"-->
+             <!--enableDeleteByExample="true"-->
+             <!--enableSelectByExample="true"-->
+             <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="excel_financial_target"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="excel_profit"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="excel_profit_total"-->
+            <!--enableCountByExample="true"-->
+            <!--enableUpdateByExample="true"-->
+            <!--enableDeleteByExample="true"-->
+            <!--enableSelectByExample="true"-->
+            <!--selectByExampleQueryId="true"></table>-->
+
+        <!--<table tableName="meeting_resolution"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="risk_file"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+        <!--<table tableName="risk_rate"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+
+
+        <!--<table tableName="number_generator"-->
+            <!--enableCountByExample="true"-->
+            <!--enableUpdateByExample="true"-->
+            <!--enableDeleteByExample="true"-->
+            <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+
+        <!--<table tableName="manager_info"-->
+               <!--enableCountByExample="true"-->
+               <!--enableUpdateByExample="true"-->
+               <!--enableDeleteByExample="true"-->
+               <!--enableSelectByExample="true"-->
+               <!--selectByExampleQueryId="true"></table>-->
+
+    </context>
+</generatorConfiguration>
