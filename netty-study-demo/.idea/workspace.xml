@@ -90,74 +90,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractChannelHandlerContext.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <file leaf-file-name="NettyClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/client/NettyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16587">
-              <caret line="955" selection-start-line="955" selection-end-line="955" />
+            <state relative-caret-position="361">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#914#1243#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChannelHandlerContext.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
+      <file leaf-file-name="NettyServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/server/NettyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2375">
-              <caret line="146" column="26" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelInboundHandler.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelInboundHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultChannelHandlerContext.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelHandler.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3382">
-              <caret line="200" column="57" selection-start-line="200" selection-start-column="49" selection-end-line="200" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultChannelPipeline.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12464">
-              <caret line="716" selection-start-line="716" selection-end-line="716" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelInboundHandlerAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelHandlerAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelHandlerAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+            <state relative-caret-position="374">
+              <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,6 +121,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -184,6 +139,17 @@
       <find>Pipeline</find>
       <find>ChannelHandler</find>
       <find>handler</find>
+      <find>in</find>
+      <find>in.read</find>
+      <find>matcher</find>
+      <find>fireRead</find>
+      <find>fire</find>
+      <find>notEmpty</find>
+      <find>notFull</find>
+      <find>remove(</find>
+      <find>decode(</find>
+      <find>channelread</find>
+      <find>channelRead(</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -364,9 +330,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6222526304192" />
+        <entry key="$PROJECT_DIR$" value="6231771753154" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2715135660" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2610953737" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1607438900" />
       </map>
@@ -551,7 +517,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/demo1/TestServerInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/demo1/TestHttpServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/demo2/MyChatServerHandler.java" />
@@ -562,7 +527,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/nio/JavaBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/nio/NioTest4.java" />
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/nio/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/nio/NioTest1.java" />
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/nio/NioTest2.java" />
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/nio/NioTest3.java" />
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/zerocopy/NewIOServer.java" />
@@ -575,9 +539,31 @@
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/nio/NioTest5.java" />
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/NettyServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo1/TestServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/MyChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/TestMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/ep1/AtomIntegerFieldUpdateDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/nio/NioTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/bio/ChatClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/bio/ChatServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/NettyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/MyChatClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo3/EmbeddedChannelDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/MyChatClientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/MyChannelInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/MyChatServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/NettyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/server/MyProtocolService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocolService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/server/ServerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/server/MyServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/client/MyClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/client/ClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocolEncode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocolDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/client/NettyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/server/NettyServer.java" />
       </list>
     </option>
   </component>
@@ -597,17 +583,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="701" />
+    <option name="y" value="27" />
+    <option name="width" value="1296" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -683,7 +668,32 @@
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="bio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-study-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dy" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-study-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dy" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -709,7 +719,7 @@
               <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="ep1" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -722,8 +732,47 @@
               <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="ep1" type="462c0819:PsiDirectoryNode" />
-              <item name="AtomIntegerFieldUpdateDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="demo4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-study-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dy" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="demo4" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-study-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dy" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="demo4" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-study-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dy" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -735,59 +784,15 @@
               <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: io.netty:netty-all:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: io.netty:netty-all:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.34.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: io.netty:netty-all:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.34.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: io.netty:netty-all:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.34.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: io.netty:netty-all:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.34.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-study-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: io.netty:netty-all:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.34.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="ChannelHandlerConte&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java&#10;ChannelHandlerContext&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java&#10;Pipeline&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;ChannelHandler&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelHandler.java&#10;ChannelHandlerCOntext&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java&#10;ByteBuf&#9;PSI&#9;JAVA://io.netty.buffer.ByteBuf&#10;ChannelInboundHandler&#9;PSI&#9;JAVA://io.netty.channel.ChannelInboundHandler&#10;AbstractChannel&#9;PSI&#9;JAVA://io.netty.channel.AbstractChannel" />
+    <property name="SearchEverywhereHistoryKey" value="ChannelPipeli&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;Replaying&#9;PSI&#9;JAVA://io.netty.handler.codec.ReplayingDecoder&#10;ChannelOutboundHandlerAda&#9;PSI&#9;JAVA://io.netty.channel.ChannelOutboundHandlerAdapter&#10;ByteBuf&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/buffer/ByteBuf.java&#10;ChannelHandlerConte&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java&#10;ChannelHandlerContext&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java&#10;Pipeline&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;ChannelHandler&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelHandler.java&#10;ChannelHandlerCOntext&#9;FILE&#9;jar://C:/Users/44824/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java&#10;ChannelInboundHandler&#9;PSI&#9;JAVA://io.netty.channel.ChannelInboundHandler&#10;AbstractChannel&#9;PSI&#9;JAVA://io.netty.channel.AbstractChannel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace3-git" />
@@ -818,58 +823,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AtomIntegerFieldUpdateDemo">
-    <configuration name="AtomIntegerFieldUpdateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dy.gradle.netty.study.netty.ep1.AtomIntegerFieldUpdateDemo" />
+  <component name="RunManager" selected="Application.NettyClient (1)">
+    <configuration name="MyProtocolDecoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dy.gradle.netty.study.netty.demo4.MyProtocolDecoder" />
       <module name="netty-study-demo_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dy.gradle.netty.study.netty.ep1.*" />
+          <option name="PATTERN" value="dy.gradle.netty.study.netty.demo4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NewIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dy.gradle.netty.study.zerocopy.NewIOClient" />
+    <configuration name="NettyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dy.gradle.netty.study.netty.demo4.client.NettyClient" />
       <module name="netty-study-demo_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dy.gradle.netty.study.zerocopy.*" />
+          <option name="PATTERN" value="dy.gradle.netty.study.netty.demo4.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NewIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dy.gradle.netty.study.zerocopy.NewIOServer" />
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dy.gradle.netty.study.netty.demo2.NettyClient" />
       <module name="netty-study-demo_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dy.gradle.netty.study.zerocopy.*" />
+          <option name="PATTERN" value="dy.gradle.netty.study.netty.demo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="OldClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dy.gradle.netty.study.zerocopy.OldClient" />
+    <configuration name="NettyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dy.gradle.netty.study.netty.demo4.server.NettyServer" />
       <module name="netty-study-demo_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dy.gradle.netty.study.zerocopy.*" />
+          <option name="PATTERN" value="dy.gradle.netty.study.netty.demo4.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dy.gradle.netty.study.TestMain" />
+    <configuration name="ServerServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dy.gradle.netty.study.netty.demo4.server.ServerServiceImpl" />
       <module name="netty-study-demo_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dy.gradle.netty.study.*" />
+          <option name="PATTERN" value="dy.gradle.netty.study.netty.demo4.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -916,19 +921,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.OldClient" />
-      <item itemvalue="Application.NewIOServer" />
-      <item itemvalue="Application.NewIOClient" />
-      <item itemvalue="Application.TestMain" />
-      <item itemvalue="Application.AtomIntegerFieldUpdateDemo" />
+      <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.ServerServiceImpl" />
+      <item itemvalue="Application.NettyServer (1)" />
+      <item itemvalue="Application.NettyClient (1)" />
+      <item itemvalue="Application.MyProtocolDecoder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AtomIntegerFieldUpdateDemo" />
-        <item itemvalue="Application.TestMain" />
-        <item itemvalue="Application.NewIOClient" />
-        <item itemvalue="Application.NewIOServer" />
-        <item itemvalue="Application.OldClient" />
+        <item itemvalue="Application.NettyClient (1)" />
+        <item itemvalue="Application.NettyServer (1)" />
+        <item itemvalue="Application.MyProtocolDecoder" />
+        <item itemvalue="Application.ServerServiceImpl" />
+        <item itemvalue="Application.NettyClient" />
       </list>
     </recent_temporary>
   </component>
@@ -977,11 +982,23 @@
       <workItem from="1561216647731" duration="679000" />
       <workItem from="1561217449708" duration="856000" />
       <workItem from="1561874922547" duration="8000" />
+      <workItem from="1561875632664" duration="38000" />
+      <workItem from="1563355543588" duration="2106000" />
+      <workItem from="1564027459208" duration="2583000" />
+      <workItem from="1564136930872" duration="1174000" />
+      <workItem from="1564226930349" duration="2901000" />
+      <workItem from="1564289594054" duration="12008000" />
+      <workItem from="1564408497183" duration="2137000" />
+      <workItem from="1564480817576" duration="3300000" />
+      <workItem from="1564502286935" duration="884000" />
+      <workItem from="1564554242540" duration="5578000" />
+      <workItem from="1564563110355" duration="124000" />
+      <workItem from="1564897379479" duration="7892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101298000" />
+    <option name="totallyTimeSpent" value="142023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -994,41 +1011,42 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="RestServices" order="4" weight="0.32995737" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Tail" order="8" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.21459696" />
+      <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info id="Structure" order="1" sideWeight="0.503268" side_tool="true" visible="true" weight="0.24413647" />
+      <window_info id="Structure" order="1" sideWeight="0.16448802" side_tool="true" weight="0.51750547" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.14488018" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47167757" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286908" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49673203" visible="true" weight="0.24413647" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" x="369" y="444" width="998" height="423" id="Run" order="2" weight="0.46078432" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3267974" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="14" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.835512" visible="true" weight="0.2761194" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.22974414" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.21489972" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1071,13 +1089,61 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/buffer/ByteBuf.java</url>
-          <line>248</line>
+          <url>file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo3/EmbeddedChannelDemo.java</url>
+          <line>67</line>
           <properties />
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo3/EmbeddedChannelDemo.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo3/EmbeddedChannelDemo.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo3/EmbeddedChannelDemo.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/client/ClientServiceImpl.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocolEncode.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocolDecoder.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocolDecoder.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocolDecoder.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1085,156 +1151,273 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+        <state relative-caret-position="114">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Number.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="418">
+          <caret line="1586" column="28" selection-start-line="1586" selection-start-column="28" selection-end-line="1586" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/embedded/EmbeddedChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="148">
+          <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/EventLoopGroup.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/ReplayingDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="6612">
+          <caret line="378" column="86" selection-start-line="378" selection-start-column="79" selection-end-line="378" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/util/concurrent/AbstractEventExecutorGroup.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelOutboundHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="-709">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/io.netty.channel.nio.NioEventLoopGroup">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>io.netty.channel.nio.NioEventLoopGroup</OriginalElement>
-          <nodes>
-            <node x="" y="">io.netty.util.concurrent.MultithreadEventExecutorGroup</node>
-            <node x="" y="">io.netty.channel.EventLoopGroup</node>
-            <node x="" y="">io.netty.channel.MultithreadEventLoopGroup</node>
-            <node x="" y="">java.util.concurrent.Executor</node>
-            <node x="" y="">java.util.concurrent.ScheduledExecutorService</node>
-            <node x="" y="">io.netty.util.concurrent.AbstractEventExecutorGroup</node>
-            <node x="" y="">io.netty.util.concurrent.EventExecutorGroup</node>
-            <node x="" y="">io.netty.channel.nio.NioEventLoopGroup</node>
-            <node x="" y="">java.lang.Iterable</node>
-            <node x="" y="">java.util.concurrent.ExecutorService</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="424.0" y="295.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/string/StringEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        <state relative-caret-position="227">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/util/concurrent/ThreadPerTaskExecutor.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/http/HttpServerCodec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="267">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/http/HttpObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2071">
-          <caret line="131" column="30" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="30" />
+        <state relative-caret-position="95">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/util/concurrent/DefaultThreadFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo3/EmbeddedChannelDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        <state relative-caret-position="1457">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ServerChannel.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/DelimiterBasedFrameDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="1751">
+          <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/util/concurrent/GenericFutureListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Void.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/bio/ChatClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/Future.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/6855a9e257ec8a21a95675d41986b01ee7593551/netty-all-4.1.34.Final.jar!/io/netty/channel/CombinedChannelDuplexHandler.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelOutboundHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-652">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        <state relative-caret-position="437">
+          <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/util/concurrent/Future.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo1/TestServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        <state relative-caret-position="399">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelFuture.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo1/TestServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="185" column="18" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
+        <state relative-caret-position="190">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo1/TestHttpServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        <state relative-caret-position="285">
+          <caret line="20" column="116" selection-start-line="20" selection-start-column="109" selection-end-line="20" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="303" column="25" selection-start-line="303" selection-start-column="25" selection-end-line="303" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17727">
+          <caret line="1034" column="31" selection-start-line="1034" selection-start-column="31" selection-end-line="1034" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="174" column="26" selection-start-line="174" selection-start-column="26" selection-end-line="174" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelOutboundInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="585" column="25" selection-start-line="585" selection-start-column="25" selection-end-line="585" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/MyChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/string/StringDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/MessageToMessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/MessageToMessageEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4332">
+          <caret line="270" column="22" selection-start-line="270" selection-start-column="22" selection-end-line="270" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StringCoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="326" column="18" selection-start-line="326" selection-start-column="18" selection-end-line="326" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="917" column="30" selection-start-line="917" selection-start-column="30" selection-end-line="917" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="266" column="28" selection-start-line="266" selection-start-column="16" selection-end-line="266" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-688">
+          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="501" column="12" selection-start-line="501" selection-start-column="12" selection-end-line="501" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/MyChatServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/MyChatClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1245,278 +1428,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/nio/NioTest4.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/client/MyClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1767">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="324">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/nio/NioTest5.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/server/MyServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="355">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocolService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="228">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/Channel.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Long.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        <state relative-caret-position="-387">
+          <caret line="629" column="23" selection-start-line="629" selection-start-column="23" selection-end-line="629" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/client/ClientServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="42" column="81" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
+        <state relative-caret-position="488">
+          <caret line="44" column="91" selection-start-line="44" selection-start-column="91" selection-end-line="44" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2165#2166#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="140" column="19" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="370" column="20" selection-start-line="370" selection-start-column="20" selection-end-line="370" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/NettyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo1/TestServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="53" column="86" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/MyChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="84" column="51" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="385" column="15" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4237">
-          <caret line="249" selection-start-line="249" selection-end-line="249" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/buffer/AbstractReferenceCountedByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="143" column="29" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/buffer/AbstractByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7809">
-          <caret line="492" column="38" selection-start-line="492" selection-start-column="33" selection-end-line="492" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/MessageToMessageDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="114" column="56" selection-start-line="114" selection-start-column="56" selection-end-line="114" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/string/StringDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo2/MyChatClientInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Boolean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/ep1/AtomIntegerFieldUpdateDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/io.netty.channel.AbstractChannelHandlerContext">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>io.netty.channel.AbstractChannelHandlerContext</OriginalElement>
-          <nodes>
-            <node x="382.51190476190476" y="80.0">io.netty.channel.ChannelHandlerContext</node>
-            <node x="223.75" y="0.0">io.netty.util.AttributeMap</node>
-            <node x="172.0" y="80.0">io.netty.util.DefaultAttributeMap</node>
-            <node x="368.75" y="0.0">io.netty.channel.ChannelOutboundInvoker</node>
-            <node x="139.0" y="160.0">io.netty.channel.AbstractChannelHandlerContext</node>
-            <node x="585.75" y="0.0">io.netty.channel.ChannelInboundInvoker</node>
-            <node x="0.0" y="80.0">io.netty.util.ResourceLeakHint</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="io.netty.channel.AbstractChannelHandlerContext" target="io.netty.util.ResourceLeakHint">
-              <point x="-77.33333333333331" y="-15.0" />
-              <point x="177.66666666666669" y="135.0" />
-              <point x="76.0" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="io.netty.channel.AbstractChannelHandlerContext" target="io.netty.channel.ChannelHandlerContext">
-              <point x="77.33333333333337" y="-15.0" />
-              <point x="332.33333333333337" y="135.0" />
-              <point x="474.51190476190476" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="io.netty.channel.ChannelHandlerContext" target="io.netty.channel.ChannelOutboundInvoker">
-              <point x="0.0" y="-15.0" />
-              <point x="474.51190476190476" y="55.0" />
-              <point x="467.25" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="io.netty.channel.ChannelHandlerContext" target="io.netty.util.AttributeMap">
-              <point x="-61.33333333333334" y="-15.0" />
-              <point x="413.17857142857144" y="55.0" />
-              <point x="317.5" y="55.0" />
-              <point x="31.25" y="15.0" />
-            </edge>
-            <edge source="io.netty.util.DefaultAttributeMap" target="io.netty.util.AttributeMap">
-              <point x="0.0" y="-15.0" />
-              <point x="-31.25" y="15.0" />
-            </edge>
-            <edge source="io.netty.channel.ChannelHandlerContext" target="io.netty.channel.ChannelInboundInvoker">
-              <point x="61.333333333333314" y="-15.0" />
-              <point x="535.8452380952381" y="55.0" />
-              <point x="679.25" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="io.netty.channel.AbstractChannelHandlerContext" target="io.netty.util.DefaultAttributeMap">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-60.0" y="-97.0" />
-          <SelectedNodes>
-            <node>io.netty.channel.AbstractChannelHandlerContext</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3382">
-          <caret line="200" column="57" selection-start-line="200" selection-start-column="49" selection-end-line="200" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12464">
-          <caret line="716" selection-start-line="716" selection-end-line="716" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelInboundHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/server/ServerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2375">
-          <caret line="146" column="26" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocolEncode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16587">
-          <caret line="955" selection-start-line="955" selection-end-line="955" />
+        <state relative-caret-position="456">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="266">
+          <caret line="334" selection-start-line="334" selection-end-line="334" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/MyProtocolDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="36" column="88" selection-start-line="36" selection-start-column="88" selection-end-line="36" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/client/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#1243#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dy/gradle/netty/study/netty/demo4/server/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

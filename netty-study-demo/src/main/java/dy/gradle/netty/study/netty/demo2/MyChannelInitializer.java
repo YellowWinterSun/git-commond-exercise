@@ -1,5 +1,6 @@
 package dy.gradle.netty.study.netty.demo2;
 
+import io.netty.buffer.ByteBuf;
 import io.netty.channel.*;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.codec.DelimiterBasedFrameDecoder;
@@ -21,11 +22,12 @@ public class MyChannelInitializer extends ChannelInitializer<SocketChannel> {
 
         pipeline.addLast(new DelimiterBasedFrameDecoder(4096,
                 Delimiters.lineDelimiter()));
+
         pipeline.addLast(new StringDecoder(CharsetUtil.UTF_8));
         pipeline.addLast(new StringEncoder(CharsetUtil.UTF_8));
 
-        pipeline.addLast(new MyChatServerHandler());
 
+        pipeline.addLast(new MyChatServerHandler());
 
     }
 }

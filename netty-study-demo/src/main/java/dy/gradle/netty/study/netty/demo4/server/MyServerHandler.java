@@ -1,5 +1,7 @@
-package dy.gradle.netty.study.netty.demo2;
+package dy.gradle.netty.study.netty.demo4.server;
 
+import dy.gradle.netty.study.netty.demo4.MyProtocol;
+import dy.gradle.netty.study.netty.demo4.MyProtocolService;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -8,31 +10,21 @@ import io.netty.channel.group.DefaultChannelGroup;
 import io.netty.util.concurrent.GlobalEventExecutor;
 
 /**
- * 类的描述
+ * 服务器用的入站处理器，用于消费MyProtocol
  *
  * @author HuangDongYang<huangdy @ pvc123.com>
- * @date 2019/4/20
+ * @date 2019/8/4
  */
-public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
+public class MyServerHandler extends SimpleChannelInboundHandler<MyProtocol> {
+
+    private MyProtocolService service = ServerServiceImpl.getInstance();
 
     // 保存一个个Channel对象
-    private static ChannelGroup channelGroup = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
+    public static ChannelGroup channelGroup = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
 
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
-        Channel channel = ctx.channel();
-
-        channelGroup.forEach(ch -> {
-            if (channel != ch) {
-                // 不是发送者
-                ch.writeAndFlush("[" + channel.remoteAddress() + "] : " + msg + "\n");
-            }
-            else {
-                // 发送者自己的消息
-                ch.writeAndFlush("[我] : " + msg + "\n");
-            }
-        });
-
+    protected void channelRead0(ChannelHandlerContext ctx, MyProtocol msg) throws Exception {
+        service.process(ctx, msg);
     }
 
     @Override
@@ -40,7 +32,7 @@ public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
         Channel channel = ctx.channel();
 
         // 告诉其他客户端，我加入了这个群聊
-        channelGroup.writeAndFlush("[服务器] : " + channel.remoteAddress() + " 加入群聊\n");
+        System.out.println(("[服务器] : " + channel.remoteAddress() + " 加入\n"));
 
         channelGroup.add(channel);
     }
@@ -50,8 +42,8 @@ public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
         Channel channel = ctx.channel();
 
         // 离开群聊
-        channelGroup.writeAndFlush("[服务器] : " +
-        channel.remoteAddress() + " 离开群聊\n");
+        System.out.println(("[服务器] : " +
+                channel.remoteAddress() + " 离开\n"));
 
         // Netty会自动把这个断开的channel移除，下列代码无用
         // channelGroup.remove(channel);

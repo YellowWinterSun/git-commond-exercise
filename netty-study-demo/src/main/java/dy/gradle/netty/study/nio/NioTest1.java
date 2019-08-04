@@ -20,7 +20,9 @@ public class NioTest1 {
             buf.put(randomNumber);
         }
 
-        buf.flip();
+        //buf.flip();
+        buf.position(0);
+        buf.limit(4);
 
         while (buf.hasRemaining()) {
             System.out.println(buf.get());
