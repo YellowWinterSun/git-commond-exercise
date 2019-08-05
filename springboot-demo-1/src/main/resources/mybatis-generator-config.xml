@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+
+    <!-- 引入mysql-connector-java-5.1.30.jar位置 -->
+    <classPathEntry location="C:/Users/44824/.m2/repository/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar" />
+
+    <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"/>
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!-- 数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/dorm"
+                        userId="root"
+                        password="123456">
+        </jdbcConnection>
+
+        <!--      
+                             默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer    
+             true，把JDBC DECIMAL 和 NUMERIC 类型解析为java.math.BigDecimal      
+        -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="true"/>
+        </javaTypeResolver>
+
+        <!--     
+            生成model模型，对应的包路径，以及文件存放路径(targetProject)，targetProject可以指定具体的路径    
+         也可以使用“MAVEN”来自动生成，这样生成的代码会在target/generatord-source目录下    
+        -->
+        <javaModelGenerator targetPackage="dy.springboot.demo1.model"
+                            targetProject=".\java">
+            <property name="enableSubPackages" value="true"/>
+            <!-- 从数据库返回的值被清理前后的空格  -->
+            <property name="trimStrings" value="false"/>
+        </javaModelGenerator>
+
+        <!--对应的mapper.xml文件  -->
+        <sqlMapGenerator targetPackage="mapping" targetProject=".\resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!-- 对应的Mapper接口类文件 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="dy.springboot.demo1.dao.mapper"
+                             targetProject=".\java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!-- 生成那些表，tableName对应数据库表，domainObjectName对应实体类名 -->
+
+        <!---->
+        <table tableName="student"
+               enableCountByExample="true"
+               enableUpdateByExample="true"
+               enableDeleteByExample="true"
+               enableSelectByExample="true"
+               selectByExampleQueryId="true"></table>
+
+
+    </context>
+</generatorConfiguration>
