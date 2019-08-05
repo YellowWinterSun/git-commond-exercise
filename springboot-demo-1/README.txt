@@ -8,7 +8,7 @@
           <li>整合Redis</li>
           <li>整合了JWT实现token单点登陆，不需要session共享等问题</li>
           <li>有个AOP的小例子</li>
-          <li>整合了一个webapp目录用于前端开发</li>
+          <li>整合了一个webapp目录用于JSP技术的前端开发</li>
           <li>整合了一个可用的redis分布式可重入防死锁</li>
           <li>整合Spring Session，解决session共享问题</li>
           <li>整合MyBatis以及其逆向工程文件，后续使用了mybatis-plus，对原本项目没有太多影响</li>
