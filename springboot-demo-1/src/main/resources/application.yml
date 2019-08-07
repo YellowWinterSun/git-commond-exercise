@@ -82,4 +82,14 @@ spring:
         max-idle: 20
         min-idle: 0
 
+##### rocketmq #########
+dy:
+  rocketmq:
+    namesrvAddr: 127.0.0.1:9876
+    producer:
+      producerGroup: springboot-test-producerGroup-1
+      instanceName: springboot-demo-1
+    consumer:
+      consumerGroup: springboot-test-consumerGroup-1
+
 
