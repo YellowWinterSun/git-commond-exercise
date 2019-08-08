@@ -15,5 +15,6 @@ ps：不要太在意里面的目录结构，大部分是按照规范来命名和
           <li>整合了一个可用的redis分布式可重入防死锁</li>
           <li>整合Spring Session，解决session共享问题</li>
           <li>整合MyBatis以及其逆向工程文件，后续使用了mybatis-plus，对原本项目没有太多影响</li>
+          <li>整合rocketmq</li>
       </ul>
   </div>
