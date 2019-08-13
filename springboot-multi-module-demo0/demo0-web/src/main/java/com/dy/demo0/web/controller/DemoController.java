@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
+import javax.annotation.Resources;
+
 /**
  * 类的描述
  *
@@ -18,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/demo")
 public class DemoController {
 
-    @Autowired
+    @Resource(name = "demoService2Impl")
     private DemoService demoService;
 
     @GetMapping("/hello")

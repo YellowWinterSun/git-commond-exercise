@@ -77,6 +77,8 @@ public abstract class AbstractMqConsumer {
                         }
                         publisher.publishEvent(new MqMessageEvent(consumer, msgs));
                     } catch (Exception e) {
+                        // 应该合理的去记录消费异常，如果这里不用try catch捕获消费逻辑，就会导致有些莫名的抛出异常而导致重复消费问题
+                        // 此处只是demo，为了方便所以使用e.printStackTrace(); 实际项目请合理运用log日志等技术
                         e.printStackTrace();
                         return ConsumeConcurrentlyStatus.RECONSUME_LATER;
                     }
@@ -91,7 +93,7 @@ public abstract class AbstractMqConsumer {
             public void run() {
 
                 try {
-                    Thread.sleep(5000L);
+                    Thread.sleep(10000L);
 
                     consumer.start();
                     System.err.println("rocketmq consumer server is starting...");

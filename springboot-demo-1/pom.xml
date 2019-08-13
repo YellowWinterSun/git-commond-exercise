@@ -181,6 +181,19 @@
       <version>4.1.0-incubating</version>
     </dependency>
 
+    <!-- dubbo -->
+    <!--<dependency>-->
+      <!--<groupId>com.alibaba.boot</groupId>-->
+      <!--<artifactId>dubbo-spring-boot-starter</artifactId>-->
+      <!--<version>0.2.0</version>-->
+    <!--</dependency>-->
+
+    <dependency>
+      <groupId>com.dy.learn</groupId>
+      <artifactId>dubbo-demo-provider-api</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -188,6 +201,9 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <includeSystemScope>true</includeSystemScope>
+        </configuration>
       </plugin>
 
       <plugin>

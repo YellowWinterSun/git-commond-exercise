@@ -1,0 +1,7 @@
+[20190810 22:03:09.397[INFO] logback [main] dy.springboot.demo1.BootApplication ]:Starting BootApplication on hdy with PID 404 (started by hdy in D:\ProgrammaSoftware\InteliJ IDEA\workspace2\springboot-demo-1)
+[20190810 22:03:09.406[INFO] logback [main] dy.springboot.demo1.BootApplication ]:No active profile set, falling back to default profiles: default
+[20190810 22:03:47.575[INFO] logback [main] dy.springboot.demo1.BootApplication ]:Starting BootApplication on hdy with PID 11604 (started by hdy in D:\ProgrammaSoftware\InteliJ IDEA\workspace2\springboot-demo-1)
+[20190810 22:03:47.576[INFO] logback [main] dy.springboot.demo1.BootApplication ]:No active profile set, falling back to default profiles: default
+[20190810 22:04:38.056[INFO] logback [main] dy.springboot.demo1.BootApplication ]:Starting BootApplication on hdy with PID 14664 (started by hdy in D:\ProgrammaSoftware\InteliJ IDEA\workspace2\springboot-demo-1)
+[20190810 22:04:38.061[INFO] logback [main] dy.springboot.demo1.BootApplication ]:No active profile set, falling back to default profiles: default
+[20190810 22:04:42.260[INFO] logback [main] dy.springboot.demo1.BootApplication ]:Started BootApplication in 4.833 seconds (JVM running for 6.56)

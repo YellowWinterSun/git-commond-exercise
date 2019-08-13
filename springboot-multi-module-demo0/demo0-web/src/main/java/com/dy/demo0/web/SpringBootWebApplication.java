@@ -3,6 +3,7 @@ package com.dy.demo0.web;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * 类的描述
@@ -12,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication(scanBasePackages = "com.dy.demo0")
 @MapperScan("com.dy.demo0.dao.mapper")
+@EnableTransactionManagement
 public class SpringBootWebApplication {
 
     public static void main(String[] args) {

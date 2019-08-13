@@ -13,7 +13,7 @@ import java.io.UnsupportedEncodingException;
  * @author HuangDongYang<huangdy @ pvc123.com>
  * @date 2019/8/7
  */
-@Service
+//@Service
 public class TestConsumerService {
 
     /**

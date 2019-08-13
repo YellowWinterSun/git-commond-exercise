@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author HuangDongYang<huangdy @ pvc123.com>
  * @date 2019/8/7
  */
-@RestController
-@RequestMapping("/rocketmq")
+//@RestController
+//@RequestMapping("/rocketmq")
 public class RocketMqController {
 
     @Autowired

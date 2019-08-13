@@ -4,6 +4,7 @@ import com.dy.demo0.dao.model.Student;
 import com.dy.demo0.dao.model.StudentExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Update;
 
 public interface StudentMapper {
     int countByExample(StudentExample example);
@@ -27,4 +28,12 @@ public interface StudentMapper {
     int updateByPrimaryKeySelective(Student record);
 
     int updateByPrimaryKey(Student record);
+
+    @Update("update student set identityCard=#{newIdCard}, name=#{newName} " +
+            "where studentId=#{id} and identityCard=#{oldIdCard}")
+    int updateTest(@Param("id") String id, @Param("newName") String newName, @Param("newIdCard") String newIdCard,
+                   @Param("oldIdCard") String oldIdCard);
+
+    @Update("update student set name=#{newName} where studentId=#{id}")
+    int updateTest2(@Param("id") String id, @Param("newName") String newName);
 }

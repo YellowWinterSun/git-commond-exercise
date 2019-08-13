@@ -28,6 +28,8 @@ import org.springframework.web.bind.annotation.RestController;
  *         <li>整合了一个可用的redis分布式可重入防死锁</li>
  *         <li>整合Spring Session，解决session共享问题</li>
  *         <li>整合MyBatis以及其逆向工程文件，后续使用了mybatis-plus，对原本项目没有太多影响</li>
+ *         <li>整合RocketMQ</li>
+ *         <li>整合Dubbo（基于@EnableDubbo注解式的dubbo方式）</li>
  *     </ul>
  * </div>
  *  <hr/>
@@ -47,15 +49,15 @@ import org.springframework.web.bind.annotation.RestController;
 @ImportResource(locations = {"classpath:mybean.xml"})
 @PropertySource(value = {"classpath:dy.yml"}, ignoreResourceNotFound = true, factory = YmlPropertiesFactory.class)
 @MapperScan("dy.springboot.demo1.dao.mapper")
+//@EnableDubbo
 @Controller
 @RequestMapping("/")
 public class BootApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(BootApplication.class, args);
     }
-
-
 
     @Autowired
     private SayService sayService;

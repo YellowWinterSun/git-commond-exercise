@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8085
   servlet:
     context-path: /
     session:
@@ -81,6 +81,8 @@ spring:
         max-wait: 5s
         max-idle: 20
         min-idle: 0
+  application:
+    name: springboot-demo-1
 
 ##### rocketmq #########
 dy:
@@ -92,4 +94,10 @@ dy:
     consumer:
       consumerGroup: springboot-test-consumerGroup-1
 
-
+#dubbo:
+#  registry:
+#    address: zookeeper://127.0.0.1:2181
+#  application:
+#    name: springboot-demo-1
+#  consumer:
+#    check: false

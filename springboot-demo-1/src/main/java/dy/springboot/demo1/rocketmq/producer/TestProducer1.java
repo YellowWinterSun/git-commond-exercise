@@ -20,7 +20,7 @@ import javax.annotation.PostConstruct;
  * @author HuangDongYang<huangdy @ pvc123.com>
  * @date 2019/8/7
  */
-@Component
+//@Component
 public class TestProducer1 extends AbstractMqProducer{
 
     @Value("${dy.rocketmq.producer.producerGroup}")

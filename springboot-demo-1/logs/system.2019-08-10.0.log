@@ -1,0 +1,350 @@
+[20190810 22:03:09.001[INFO] logback [main] c.a.d.common.logger.LoggerFactory ]:using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+[20190810 22:03:09.017[INFO] logback [main] c.a.b.d.c.e.WelcomeLogoApplicationListener ]:
+
+ :: Dubbo Spring Boot (v0.2.0) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.2) : https://github.com/apache/incubator-dubbo
+ :: Google group : dev@dubbo.incubator.apache.org
+
+[20190810 22:03:09.021[INFO] logback [main] c.a.b.d.c.e.OverrideDubboConfigApplicationListener ]:Dubbo Config was overridden by externalized configuration {}
+[20190810 22:03:09.397[INFO] logback [main] dy.springboot.demo1.BootApplication ]:Starting BootApplication on hdy with PID 404 (started by hdy in D:\ProgrammaSoftware\InteliJ IDEA\workspace2\springboot-demo-1)
+[20190810 22:03:09.406[INFO] logback [main] dy.springboot.demo1.BootApplication ]:No active profile set, falling back to default profiles: default
+[20190810 22:03:09.655[INFO] logback [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ]:Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@776b83cc: startup date [Sat Aug 10 22:03:09 CST 2019]; root of context hierarchy
+[20190810 22:03:10.205[INFO] logback [main] o.s.b.f.xml.XmlBeanDefinitionReader ]:Loading XML bean definitions from class path resource [mybean.xml]
+[20190810 22:03:10.463[INFO] logback [main] o.s.d.r.c.RepositoryConfigurationDelegate ]:Multiple Spring Data modules found, entering strict repository configuration mode!
+[20190810 22:03:10.537[INFO] logback [main] o.s.i.config.IntegrationRegistrar ]:No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[20190810 22:03:10.794[INFO] logback [main] o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor ]:No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[20190810 22:03:10.802[INFO] logback [main] o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor ]:No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[20190810 22:03:10.832[INFO] logback [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ]:Bean 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' of type [com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$fe48e2e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[20190810 22:03:10.961[INFO] logback [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ]:Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef473d70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[20190810 22:03:11.081[INFO] logback [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ]:Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$5a38f89f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[20190810 22:03:11.621[INFO] logback [main] o.s.b.w.e.tomcat.TomcatWebServer ]:Tomcat initialized with port(s): 8080 (http)
+[20190810 22:03:11.634[INFO] logback [main] o.a.coyote.http11.Http11NioProtocol ]:Initializing ProtocolHandler ["http-nio-8080"]
+[20190810 22:03:11.648[INFO] logback [main] o.a.catalina.core.StandardService ]:Starting service [Tomcat]
+[20190810 22:03:11.649[INFO] logback [main] o.a.catalina.core.StandardEngine ]:Starting Servlet Engine: Apache Tomcat/8.5.39
+[20190810 22:03:11.653[INFO] logback [localhost-startStop-1] o.a.c.core.AprLifecycleListener ]:The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrammaSoftware\Python\Python3.7\Scripts\;D:\ProgrammaSoftware\Python\Python3.7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jre1.8.0_171;C:\Program Files\Java\jdk1.8.0_171;D:\ProgrammaSoftware\Apache Maven\apache-maven-3.5.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\ProgrammaSoftware\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\ProgrammaSoftware\erlang\erl9.3\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrammaSoftware\zookeeper\zookeeper-3.4.13\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jre1.8.0_171\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\44824\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\ProgrammaSoftware\Python\PyCharm\PyCharm Edu 2018.3\bin;C:\Windows\System32;C:\Users\44824\AppData\Local\GitHubDesktop\bin;.]
+[20190810 22:03:11.958[INFO] logback [localhost-startStop-1] org.apache.jasper.servlet.TldScanner ]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[20190810 22:03:11.964[INFO] logback [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/] ]:Initializing Spring embedded WebApplicationContext
+[20190810 22:03:11.965[INFO] logback [localhost-startStop-1] o.s.web.context.ContextLoader ]:Root WebApplicationContext: initialization completed in 2310 ms
+[20190810 22:03:12.032[INFO] logback [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean ]:Servlet dispatcherServlet mapped to [/]
+[20190810 22:03:12.036[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'characterEncodingFilter' to: [/*]
+[20190810 22:03:12.037[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[20190810 22:03:12.037[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[20190810 22:03:12.037[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'requestContextFilter' to: [/*]
+[20190810 22:03:12.307[INFO] logback [main] com.zaxxer.hikari.HikariDataSource ]:MyDataHikariCP - Starting...
+[20190810 22:03:15.378[ERROR] logback [main] com.zaxxer.hikari.pool.HikariPool ]:MyDataHikariCP - Exception during pool initialization.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:591)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.afterPropertiesSet(MybatisSqlSessionFactoryBean.java:422)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.getObject(MybatisSqlSessionFactoryBean.java:636)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration.sqlSessionFactory(MybatisPlusAutoConfiguration.java:172)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$2d0faa0a.CGLIB$sqlSessionFactory$2(<generated>)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$2d0faa0a$$FastClassBySpringCGLIB$$a4f779bd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$2d0faa0a.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1319)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:581)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:881)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at dy.springboot.demo1.BootApplication.main(BootApplication.java:58)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 77 common frames omitted
+[20190810 22:03:15.387[WARN] logback [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demoController': Unsatisfied dependency expressed through field 'studentMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentMapper' defined in file [D:\ProgrammaSoftware\InteliJ IDEA\workspace2\springboot-demo-1\target\classes\dy\springboot\demo1\dao\mapper\StudentMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: GlobalConfigUtils setMetaData Fail !  Cause:com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[20190810 22:03:15.387[INFO] logback [main] c.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor ]:class com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+[20190810 22:03:15.389[INFO] logback [main] o.a.catalina.core.StandardService ]:Stopping service [Tomcat]
+[20190810 22:03:15.399[INFO] logback [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener ]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[20190810 22:03:15.407[ERROR] logback [main] o.s.boot.SpringApplication ]:Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demoController': Unsatisfied dependency expressed through field 'studentMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentMapper' defined in file [D:\ProgrammaSoftware\InteliJ IDEA\workspace2\springboot-demo-1\target\classes\dy\springboot\demo1\dao\mapper\StudentMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: GlobalConfigUtils setMetaData Fail !  Cause:com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:881)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at dy.springboot.demo1.BootApplication.main(BootApplication.java:58)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentMapper' defined in file [D:\ProgrammaSoftware\InteliJ IDEA\workspace2\springboot-demo-1\target\classes\dy\springboot\demo1\dao\mapper\StudentMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: GlobalConfigUtils setMetaData Fail !  Cause:com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1319)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:581)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: GlobalConfigUtils setMetaData Fail !  Cause:com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1416)
+	... 30 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: GlobalConfigUtils setMetaData Fail !  Cause:com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583)
+	... 42 common frames omitted
+Caused by: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: GlobalConfigUtils setMetaData Fail !  Cause:com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.baomidou.mybatisplus.core.toolkit.ExceptionUtils.mpe(ExceptionUtils.java:49)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:594)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.afterPropertiesSet(MybatisSqlSessionFactoryBean.java:422)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.getObject(MybatisSqlSessionFactoryBean.java:636)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration.sqlSessionFactory(MybatisPlusAutoConfiguration.java:172)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$2d0faa0a.CGLIB$sqlSessionFactory$2(<generated>)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$2d0faa0a$$FastClassBySpringCGLIB$$a4f779bd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$2d0faa0a.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 43 common frames omitted
+[20190810 22:03:47.458[INFO] logback [main] c.a.d.common.logger.LoggerFactory ]:using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+[20190810 22:03:47.461[INFO] logback [main] c.a.b.d.c.e.WelcomeLogoApplicationListener ]:
+
+ :: Dubbo Spring Boot (v0.2.0) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.2) : https://github.com/apache/incubator-dubbo
+ :: Google group : dev@dubbo.incubator.apache.org
+
+[20190810 22:03:47.464[INFO] logback [main] c.a.b.d.c.e.OverrideDubboConfigApplicationListener ]:Dubbo Config was overridden by externalized configuration {}
+[20190810 22:03:47.575[INFO] logback [main] dy.springboot.demo1.BootApplication ]:Starting BootApplication on hdy with PID 11604 (started by hdy in D:\ProgrammaSoftware\InteliJ IDEA\workspace2\springboot-demo-1)
+[20190810 22:03:47.576[INFO] logback [main] dy.springboot.demo1.BootApplication ]:No active profile set, falling back to default profiles: default
+[20190810 22:03:47.635[INFO] logback [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ]:Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2525ff7e: startup date [Sat Aug 10 22:03:47 CST 2019]; root of context hierarchy
+[20190810 22:03:48.010[INFO] logback [main] o.s.b.f.xml.XmlBeanDefinitionReader ]:Loading XML bean definitions from class path resource [mybean.xml]
+[20190810 22:03:48.215[INFO] logback [main] o.s.d.r.c.RepositoryConfigurationDelegate ]:Multiple Spring Data modules found, entering strict repository configuration mode!
+[20190810 22:03:48.273[INFO] logback [main] o.s.i.config.IntegrationRegistrar ]:No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[20190810 22:03:48.466[INFO] logback [main] o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor ]:No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[20190810 22:03:48.472[INFO] logback [main] o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor ]:No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[20190810 22:03:48.500[INFO] logback [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ]:Bean 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' of type [com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$67b83e73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[20190810 22:03:48.619[INFO] logback [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ]:Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58b69901] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[20190810 22:03:48.728[INFO] logback [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ]:Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$c3a85430] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[20190810 22:03:49.222[INFO] logback [main] o.s.b.w.e.tomcat.TomcatWebServer ]:Tomcat initialized with port(s): 8080 (http)
+[20190810 22:03:49.233[INFO] logback [main] o.a.coyote.http11.Http11NioProtocol ]:Initializing ProtocolHandler ["http-nio-8080"]
+[20190810 22:03:49.246[INFO] logback [main] o.a.catalina.core.StandardService ]:Starting service [Tomcat]
+[20190810 22:03:49.247[INFO] logback [main] o.a.catalina.core.StandardEngine ]:Starting Servlet Engine: Apache Tomcat/8.5.39
+[20190810 22:03:49.251[INFO] logback [localhost-startStop-1] o.a.c.core.AprLifecycleListener ]:The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrammaSoftware\Python\Python3.7\Scripts\;D:\ProgrammaSoftware\Python\Python3.7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jre1.8.0_171;C:\Program Files\Java\jdk1.8.0_171;D:\ProgrammaSoftware\Apache Maven\apache-maven-3.5.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\ProgrammaSoftware\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\ProgrammaSoftware\erlang\erl9.3\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrammaSoftware\zookeeper\zookeeper-3.4.13\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jre1.8.0_171\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\44824\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\ProgrammaSoftware\Python\PyCharm\PyCharm Edu 2018.3\bin;C:\Windows\System32;C:\Users\44824\AppData\Local\GitHubDesktop\bin;.]
+[20190810 22:03:49.538[INFO] logback [localhost-startStop-1] org.apache.jasper.servlet.TldScanner ]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[20190810 22:03:49.544[INFO] logback [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/] ]:Initializing Spring embedded WebApplicationContext
+[20190810 22:03:49.545[INFO] logback [localhost-startStop-1] o.s.web.context.ContextLoader ]:Root WebApplicationContext: initialization completed in 1910 ms
+[20190810 22:03:49.611[INFO] logback [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean ]:Servlet dispatcherServlet mapped to [/]
+[20190810 22:03:49.615[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'characterEncodingFilter' to: [/*]
+[20190810 22:03:49.616[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[20190810 22:03:49.616[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[20190810 22:03:49.616[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'requestContextFilter' to: [/*]
+[20190810 22:03:49.861[INFO] logback [main] com.zaxxer.hikari.HikariDataSource ]:MyDataHikariCP - Starting...
+[20190810 22:03:50.023[INFO] logback [main] com.zaxxer.hikari.HikariDataSource ]:MyDataHikariCP - Start completed.
+[20190810 22:03:50.138[WARN] logback [main] c.b.m.core.toolkit.TableInfoHelper ]:Warn: Could not find @TableId in Class: dy.springboot.demo1.model.Student.
+[20190810 22:03:50.219[WARN] logback [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rocketMqController': Unsatisfied dependency expressed through field 'testProducer1'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'dy.springboot.demo1.rocketmq.producer.TestProducer1' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[20190810 22:03:50.219[INFO] logback [main] com.zaxxer.hikari.HikariDataSource ]:MyDataHikariCP - Shutdown initiated...
+[20190810 22:03:50.222[INFO] logback [main] com.zaxxer.hikari.HikariDataSource ]:MyDataHikariCP - Shutdown completed.
+[20190810 22:03:50.222[INFO] logback [main] c.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor ]:class com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+[20190810 22:03:50.224[INFO] logback [main] o.a.catalina.core.StandardService ]:Stopping service [Tomcat]
+[20190810 22:03:50.233[INFO] logback [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener ]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[20190810 22:03:50.313[ERROR] logback [main] o.s.b.d.LoggingFailureAnalysisReporter ]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field testProducer1 in dy.springboot.demo1.controller.RocketMqController required a bean of type 'dy.springboot.demo1.rocketmq.producer.TestProducer1' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'dy.springboot.demo1.rocketmq.producer.TestProducer1' in your configuration.
+
+[20190810 22:04:37.983[INFO] logback [main] c.a.d.common.logger.LoggerFactory ]:using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+[20190810 22:04:37.987[INFO] logback [main] c.a.b.d.c.e.WelcomeLogoApplicationListener ]:
+
+ :: Dubbo Spring Boot (v0.2.0) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.2) : https://github.com/apache/incubator-dubbo
+ :: Google group : dev@dubbo.incubator.apache.org
+
+[20190810 22:04:37.993[INFO] logback [main] c.a.b.d.c.e.OverrideDubboConfigApplicationListener ]:Dubbo Config was overridden by externalized configuration {}
+[20190810 22:04:38.056[INFO] logback [main] dy.springboot.demo1.BootApplication ]:Starting BootApplication on hdy with PID 14664 (started by hdy in D:\ProgrammaSoftware\InteliJ IDEA\workspace2\springboot-demo-1)
+[20190810 22:04:38.061[INFO] logback [main] dy.springboot.demo1.BootApplication ]:No active profile set, falling back to default profiles: default
+[20190810 22:04:38.153[INFO] logback [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ]:Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e1d27ba: startup date [Sat Aug 10 22:04:38 CST 2019]; root of context hierarchy
+[20190810 22:04:38.488[INFO] logback [main] o.s.b.f.xml.XmlBeanDefinitionReader ]:Loading XML bean definitions from class path resource [mybean.xml]
+[20190810 22:04:38.685[INFO] logback [main] o.s.d.r.c.RepositoryConfigurationDelegate ]:Multiple Spring Data modules found, entering strict repository configuration mode!
+[20190810 22:04:38.746[INFO] logback [main] o.s.i.config.IntegrationRegistrar ]:No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[20190810 22:04:38.949[INFO] logback [main] o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor ]:No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[20190810 22:04:38.955[INFO] logback [main] o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor ]:No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[20190810 22:04:39.002[INFO] logback [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ]:Bean 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' of type [com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$28799acf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[20190810 22:04:39.137[INFO] logback [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ]:Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1977f55d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[20190810 22:04:39.246[INFO] logback [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ]:Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$8469b08c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[20190810 22:04:39.735[INFO] logback [main] o.s.b.w.e.tomcat.TomcatWebServer ]:Tomcat initialized with port(s): 8080 (http)
+[20190810 22:04:39.748[INFO] logback [main] o.a.coyote.http11.Http11NioProtocol ]:Initializing ProtocolHandler ["http-nio-8080"]
+[20190810 22:04:39.761[INFO] logback [main] o.a.catalina.core.StandardService ]:Starting service [Tomcat]
+[20190810 22:04:39.762[INFO] logback [main] o.a.catalina.core.StandardEngine ]:Starting Servlet Engine: Apache Tomcat/8.5.39
+[20190810 22:04:39.765[INFO] logback [localhost-startStop-1] o.a.c.core.AprLifecycleListener ]:The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrammaSoftware\Python\Python3.7\Scripts\;D:\ProgrammaSoftware\Python\Python3.7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jre1.8.0_171;C:\Program Files\Java\jdk1.8.0_171;D:\ProgrammaSoftware\Apache Maven\apache-maven-3.5.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\ProgrammaSoftware\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\ProgrammaSoftware\erlang\erl9.3\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrammaSoftware\zookeeper\zookeeper-3.4.13\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jre1.8.0_171\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\44824\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\ProgrammaSoftware\Python\PyCharm\PyCharm Edu 2018.3\bin;C:\Windows\System32;C:\Users\44824\AppData\Local\GitHubDesktop\bin;.]
+[20190810 22:04:40.051[INFO] logback [localhost-startStop-1] org.apache.jasper.servlet.TldScanner ]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[20190810 22:04:40.057[INFO] logback [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/] ]:Initializing Spring embedded WebApplicationContext
+[20190810 22:04:40.058[INFO] logback [localhost-startStop-1] o.s.web.context.ContextLoader ]:Root WebApplicationContext: initialization completed in 1905 ms
+[20190810 22:04:40.127[INFO] logback [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean ]:Servlet dispatcherServlet mapped to [/]
+[20190810 22:04:40.131[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'characterEncodingFilter' to: [/*]
+[20190810 22:04:40.132[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[20190810 22:04:40.132[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[20190810 22:04:40.132[INFO] logback [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean ]:Mapping filter: 'requestContextFilter' to: [/*]
+[20190810 22:04:40.406[INFO] logback [main] com.zaxxer.hikari.HikariDataSource ]:MyDataHikariCP - Starting...
+[20190810 22:04:40.554[INFO] logback [main] com.zaxxer.hikari.HikariDataSource ]:MyDataHikariCP - Start completed.
+[20190810 22:04:40.651[WARN] logback [main] c.b.m.core.toolkit.TableInfoHelper ]:Warn: Could not find @TableId in Class: dy.springboot.demo1.model.Student.
+[20190810 22:04:40.811[INFO] logback [main] o.s.w.s.h.SimpleUrlHandlerMapping ]:Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[20190810 22:04:41.124[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter ]:Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e1d27ba: startup date [Sat Aug 10 22:04:38 CST 2019]; root of context hierarchy
+[20190810 22:04:41.181[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/]}" onto public java.lang.String dy.springboot.demo1.BootApplication.toIndex()
+[20190810 22:04:41.181[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/index]}" onto public java.lang.String dy.springboot.demo1.BootApplication.toIndex_()
+[20190810 22:04:41.182[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/hello]}" onto public java.lang.String dy.springboot.demo1.BootApplication.hello(java.lang.String)
+[20190810 22:04:41.183[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/error]}" onto public dy.springboot.demo1.vo.Msg dy.springboot.demo1.controller.AppErrorController.error()
+[20190810 22:04:41.186[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/demo/test2]}" onto public java.lang.String dy.springboot.demo1.controller.DemoController.test2(java.lang.String)
+[20190810 22:04:41.186[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/demo/first],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> dy.springboot.demo1.controller.DemoController.firstResp(javax.servlet.http.HttpServletRequest)
+[20190810 22:04:41.186[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/demo/sessions],methods=[GET]}" onto public java.lang.Object dy.springboot.demo1.controller.DemoController.sessions(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession)
+[20190810 22:04:41.187[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/demo/testMybatisPlus]}" onto public dy.springboot.demo1.vo.Msg dy.springboot.demo1.controller.DemoController.testMyBatisPlus()
+[20190810 22:04:41.187[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/demo/testMapper]}" onto public dy.springboot.demo1.vo.Msg dy.springboot.demo1.controller.DemoController.testMapper()
+[20190810 22:04:41.187[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/demo/test1]}" onto public java.lang.String dy.springboot.demo1.controller.DemoController.test1(java.lang.String)
+[20190810 22:04:41.188[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/login/validLogin]}" onto public java.lang.String dy.springboot.demo1.controller.LoginController.validLogin(javax.servlet.http.HttpServletRequest)
+[20190810 22:04:41.189[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/login/logout]}" onto public java.lang.String dy.springboot.demo1.controller.LoginController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[20190810 22:04:41.189[INFO] logback [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping ]:Mapped "{[/login/doLogin]}" onto public java.lang.String dy.springboot.demo1.controller.LoginController.login(javax.servlet.http.HttpServletResponse,java.lang.String)
+[20190810 22:04:41.232[INFO] logback [main] o.s.w.s.h.SimpleUrlHandlerMapping ]:Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[20190810 22:04:41.232[INFO] logback [main] o.s.w.s.h.SimpleUrlHandlerMapping ]:Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[20190810 22:04:41.250[INFO] logback [main] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver ]:Detected @ExceptionHandler methods in exceptionHandler
+[20190810 22:04:41.286[INFO] logback [main] o.s.b.a.w.s.WelcomePageHandlerMapping ]:Adding welcome page template: index
+[20190810 22:04:41.873[INFO] logback [main] o.s.s.c.ThreadPoolTaskScheduler ]:Initializing ExecutorService 'taskScheduler'
+[20190810 22:04:42.203[INFO] logback [main] o.s.j.e.a.AnnotationMBeanExporter ]:Registering beans for JMX exposure on startup
+[20190810 22:04:42.204[INFO] logback [main] o.s.j.e.a.AnnotationMBeanExporter ]:Bean with name 'dataSource' has been autodetected for JMX exposure
+[20190810 22:04:42.209[INFO] logback [main] o.s.j.e.a.AnnotationMBeanExporter ]:Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+[20190810 22:04:42.219[INFO] logback [main] o.s.c.s.DefaultLifecycleProcessor ]:Starting beans in phase 0
+[20190810 22:04:42.220[INFO] logback [main] o.s.i.endpoint.EventDrivenConsumer ]:Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[20190810 22:04:42.220[INFO] logback [main] o.s.i.c.PublishSubscribeChannel ]:Channel 'application.errorChannel' has 1 subscriber(s).
+[20190810 22:04:42.220[INFO] logback [main] o.s.i.endpoint.EventDrivenConsumer ]:started _org.springframework.integration.errorLogger
+[20190810 22:04:42.228[INFO] logback [main] o.a.coyote.http11.Http11NioProtocol ]:Starting ProtocolHandler ["http-nio-8080"]
+[20190810 22:04:42.237[INFO] logback [main] o.a.tomcat.util.net.NioSelectorPool ]:Using a shared selector for servlet write/read
+[20190810 22:04:42.256[INFO] logback [main] o.s.b.w.e.tomcat.TomcatWebServer ]:Tomcat started on port(s): 8080 (http) with context path ''
+[20190810 22:04:42.260[INFO] logback [main] dy.springboot.demo1.BootApplication ]:Started BootApplication in 4.833 seconds (JVM running for 6.56)

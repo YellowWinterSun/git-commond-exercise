@@ -66,6 +66,7 @@
 				<ul>
 					<li><a target="_blank" href="/demo/testMapper">/demo/testMapper</a> </li>
 					<li><a target="_blank" href="/demo/testMybatisPlus">/demo/testMybatisPlus</a> </li>
+					<li><a target="_blank" href="/rocketmq/testSend">/rocketmq/testSend</a> </li>
 				</ul>
 
 			</div>

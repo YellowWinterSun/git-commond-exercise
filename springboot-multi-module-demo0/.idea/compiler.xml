@@ -11,8 +11,5 @@
         <module name="demo0-web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="springboot-multi-module-demo0" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

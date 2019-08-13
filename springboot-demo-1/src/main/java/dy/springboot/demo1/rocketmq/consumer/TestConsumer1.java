@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  * @author HuangDongYang<huangdy @ pvc123.com>
  * @date 2019/8/7
  */
-@Component
+//@Component
 public class TestConsumer1 extends AbstractMqConsumer {
 
     @Value("${dy.rocketmq.consumer.consumerGroup}")
