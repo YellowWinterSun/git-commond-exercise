@@ -7,6 +7,7 @@ import io.netty.channel.ChannelHandlerContext;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 
 /**
  * 客户端消费MyProtocol服务实现
@@ -44,7 +45,9 @@ public class ClientServiceImpl implements MyProtocolService {
                 case MyProtocol.TYPE_GET_SERVER_TIME:
                     Instant instant = Instant.ofEpochMilli(Long.parseLong(result.toString()));
                     ZoneId zone = ZoneId.systemDefault();
-                    System.out.println("服务器时间：\n" + LocalDateTime.ofInstant(instant, zone));
+                    DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy年MM月dd HH:mm:ss.SSS");
+                    LocalDateTime serverTime = LocalDateTime.ofInstant(instant, zone);
+                    System.out.println("服务器时间：\n" + dateTimeFormatter.format(serverTime));
 
                     break;
                 case MyProtocol.TYPE_GET_ONLINE_NUM:

@@ -1,0 +1,103 @@
+server:
+  port: 8085
+  servlet:
+    context-path: /
+    session:
+      timeout: 30m
+    jsp:
+      # 帮助jsp页面修改时，不需要重启SpringBoot
+      init-parameters:
+        development: true
+  tomcat:
+    uri-encoding: UTF-8
+
+# mybatis依赖时识别的配置命名
+#mybatis:
+#  mapper-locations: classpath:mapping/*.xml
+#  type-aliases-package: dy.springboot.demo1.model
+
+# mybatis-plus依赖时识别的配置命名
+mybatis-plus:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: dy.springboot.demo1.model
+
+spring:
+  profiles:
+    active:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+    #static-path-pattern: /
+  resources:
+    #static-locations: classpath:/public/
+  datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/dorm?useUnicode=true&characterEncoding=utf8&useAffectedRows=true
+        username: root
+        password: 123456
+        type: com.zaxxer.hikari.HikariDataSource
+        hikari:
+            minimum-idle: 5
+            maximum-pool-size: 15
+            auto-commit: true
+            idle-timeout: 30000
+            max-lifetime: 1800000
+            connection-timeout: 30000
+            pool-name: MyDataHikariCP
+
+## 在控制台输出mybatis的sql内容
+## 由于后来引入了logback.xml文件，里面设置了mybatis的sql输出
+#logging:
+#  level:
+#    dy:
+#      springboot:
+#        demo1:
+#          dao:
+#            mapper: debug
+
+########### Redis ###########
+  cache:
+    type: redis
+  redis:
+    database: 0
+    host: 192.168.0.107
+    password:
+    port: 6379
+    # timeout使用Duration类，跟以往springboot1.x已经不同，Duration类的赋值方法是直接 时间+单位
+    timeout: 2s
+###### springboot2默认lettuce连接池，简单的说就是lettuce是线程安全的且采用Netty连接，更高效。而jedis是非线程安全的
+    lettuce:
+      pool:
+        max-active: 40
+        max-idle: 50
+        min-idle: 0
+        max-wait: 5s
+###### jedis配置放在这里 （若需要使用jedis作为连接池，需要在pom.xml中，剔除lettuce的依赖，然后引入jedis的依赖，即可自动切换）
+    jedis:
+      pool:
+        max-active: 40
+        # Duration
+        max-wait: 5s
+        max-idle: 20
+        min-idle: 0
+  application:
+    name: springboot-demo-1
+
+##### rocketmq #########
+dy:
+  rocketmq:
+    namesrvAddr: 127.0.0.1:9876
+    producer:
+      producerGroup: springboot-test-producerGroup-1
+      instanceName: springboot-demo-1
+    consumer:
+      consumerGroup: springboot-test-consumerGroup-1
+
+#dubbo:
+#  registry:
+#    address: zookeeper://127.0.0.1:2181
+#  application:
+#    name: springboot-demo-1
+#  consumer:
+#    check: false

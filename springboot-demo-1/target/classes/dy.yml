@@ -1,0 +1,15 @@
+dy:
+  name: in_dy.yml
+  telephone: 13631788594
+  map:
+    a: a
+    b: b
+    c: c
+  game:
+    gameName: csgo
+    gameStation: steam
+  listGame:
+    - gameName: deadbydaylight
+      gameStation: steam
+    - gameName: gat5
+      gameStation: steam

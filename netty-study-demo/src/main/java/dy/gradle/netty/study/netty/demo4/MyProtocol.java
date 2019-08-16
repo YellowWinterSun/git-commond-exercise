@@ -13,6 +13,7 @@ public class MyProtocol {
 
     public final static String TYPE_REQUEST = "request";
     public final static String TYPE_RESPONSE = "response";
+    public final static String HEART_BEAT = "heart_beat";
 
     public final static String TYPE_GET_SERVER_TIME = "get_server_time";
     public final static String TYPE_GET_ONLINE_NUM = "get_online_num";

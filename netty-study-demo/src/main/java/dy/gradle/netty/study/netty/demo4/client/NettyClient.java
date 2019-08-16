@@ -11,6 +11,7 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.timeout.IdleStateHandler;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -38,9 +39,12 @@ public class NettyClient {
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
                             ch.pipeline().addLast(
+                                    //new IdleStateHandler(0, 3, 0),
+                                    //new ClientIdleStateTrigger(),
                                     new MyProtocolEncode(),
                                     new MyProtocolDecoder(),
-                                    new MyClientHandler()
+                                    new MyClientHandler(),
+                                    new Pinger()
                             );
                         }
                     });
@@ -58,7 +62,7 @@ public class NettyClient {
 
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             while (true) {
-                System.out.print("请输入序号:");
+                System.out.print("\n请输入序号:");
                 String input = br.readLine().trim();
                 if ("exit".equals(input)) {
                     System.out.println("++++++++开始关闭channel+++++++++");

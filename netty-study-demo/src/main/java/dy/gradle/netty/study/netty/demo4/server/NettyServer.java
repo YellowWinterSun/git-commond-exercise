@@ -9,6 +9,7 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.timeout.IdleStateHandler;
 
 /**
  * DEMO4 netty-server
@@ -34,6 +35,8 @@ public class NettyServer {
                         @Override
                         protected void initChannel(NioSocketChannel ch) throws Exception {
                             ch.pipeline().addLast(
+                                    new IdleStateHandler(5, 0, 0),
+                                    new ServerIdleStateTrigger(),
                                     new MyProtocolEncode(),
                                     new MyProtocolDecoder(),
                                     new MyServerHandler()

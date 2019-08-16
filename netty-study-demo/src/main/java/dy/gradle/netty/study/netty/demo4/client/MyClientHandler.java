@@ -20,4 +20,10 @@ public class MyClientHandler extends SimpleChannelInboundHandler<MyProtocol> {
         service.process(ctx, msg);
     }
 
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        System.out.println("MyClientHandler chanel close");
+        cause.printStackTrace();
+        ctx.close();
+    }
 }

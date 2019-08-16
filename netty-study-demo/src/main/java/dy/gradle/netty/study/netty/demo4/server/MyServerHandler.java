@@ -24,6 +24,10 @@ public class MyServerHandler extends SimpleChannelInboundHandler<MyProtocol> {
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, MyProtocol msg) throws Exception {
+        if (MyProtocol.HEART_BEAT.equals(msg.getType())) {
+            System.out.println("receive heart beat from " + ctx.channel().remoteAddress());
+            return;
+        }
         service.process(ctx, msg);
     }
 
@@ -42,11 +46,7 @@ public class MyServerHandler extends SimpleChannelInboundHandler<MyProtocol> {
         Channel channel = ctx.channel();
 
         // 离开群聊
-        System.out.println(("[服务器] : " +
-                channel.remoteAddress() + " 离开\n"));
-
-        // Netty会自动把这个断开的channel移除，下列代码无用
-        // channelGroup.remove(channel);
+        System.out.println(("[服务器] : " + channel.remoteAddress() + " 离开\n"));
     }
 
     @Override
@@ -64,6 +64,6 @@ public class MyServerHandler extends SimpleChannelInboundHandler<MyProtocol> {
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
         cause.printStackTrace();
-        ctx.close();
+        ctx.channel().close();
     }
 }
